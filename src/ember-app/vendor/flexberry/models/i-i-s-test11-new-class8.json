@@ -1,0 +1,15 @@
+﻿{
+  "name": "IISTest11NewClass8",
+  "modelName": "i-i-s-test11-new-class8",
+  "className": "NewClass8",
+  "nameSpace": "IIS.Test11",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

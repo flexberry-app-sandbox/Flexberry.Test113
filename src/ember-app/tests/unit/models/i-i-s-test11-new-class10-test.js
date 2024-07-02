@@ -1,6 +1,6 @@
 import { moduleForModel, test } from 'ember-qunit';
 
-moduleForModel('i-i-s-test11-new-class2', 'Unit | Model | i-i-s-test11-new-class2', {
+moduleForModel('i-i-s-test11-new-class10', 'Unit | Model | i-i-s-test11-new-class10', {
   // Specify the other units that are required for this test.
   needs: [
     'model:i-i-s-test11-new-class1',

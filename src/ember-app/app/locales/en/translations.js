@@ -16,12 +16,15 @@ import IISTest11NewClass5EForm from './forms/i-i-s-test11-new-class5-e';
 import IISTest11NewClass6EForm from './forms/i-i-s-test11-new-class6-e';
 import IISTest11NewClass7EForm from './forms/i-i-s-test11-new-class7-e';
 import IISTest11NewClass1Model from './models/i-i-s-test11-new-class1';
+import IISTest11NewClass10Model from './models/i-i-s-test11-new-class10';
 import IISTest11NewClass2Model from './models/i-i-s-test11-new-class2';
 import IISTest11NewClass3Model from './models/i-i-s-test11-new-class3';
 import IISTest11NewClass4Model from './models/i-i-s-test11-new-class4';
 import IISTest11NewClass5Model from './models/i-i-s-test11-new-class5';
 import IISTest11NewClass6Model from './models/i-i-s-test11-new-class6';
 import IISTest11NewClass7Model from './models/i-i-s-test11-new-class7';
+import IISTest11NewClass8Model from './models/i-i-s-test11-new-class8';
+import IISTest11NewClass9Model from './models/i-i-s-test11-new-class9';
 
 const translations = {};
 $.extend(true, translations, EmberFlexberryTranslations);
@@ -29,12 +32,15 @@ $.extend(true, translations, EmberFlexberryTranslations);
 $.extend(true, translations, {
   models: {
     'i-i-s-test11-new-class1': IISTest11NewClass1Model,
+    'i-i-s-test11-new-class10': IISTest11NewClass10Model,
     'i-i-s-test11-new-class2': IISTest11NewClass2Model,
     'i-i-s-test11-new-class3': IISTest11NewClass3Model,
     'i-i-s-test11-new-class4': IISTest11NewClass4Model,
     'i-i-s-test11-new-class5': IISTest11NewClass5Model,
     'i-i-s-test11-new-class6': IISTest11NewClass6Model,
-    'i-i-s-test11-new-class7': IISTest11NewClass7Model
+    'i-i-s-test11-new-class7': IISTest11NewClass7Model,
+    'i-i-s-test11-new-class8': IISTest11NewClass8Model,
+    'i-i-s-test11-new-class9': IISTest11NewClass9Model
   },
 
   'application-name': 'Test11',

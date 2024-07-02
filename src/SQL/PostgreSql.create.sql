@@ -3,6 +3,22 @@
 
 
 
+CREATE TABLE NewClass8 (
+ primaryKey UUID NOT NULL,
+ PRIMARY KEY (primaryKey));
+
+
+CREATE TABLE NewClass9 (
+ primaryKey UUID NOT NULL,
+ PRIMARY KEY (primaryKey));
+
+
+CREATE TABLE NewClass10 (
+ primaryKey UUID NOT NULL,
+ NewClass9 UUID NOT NULL,
+ PRIMARY KEY (primaryKey));
+
+
 CREATE TABLE NewClass5 (
  primaryKey UUID NOT NULL,
  CreateTime TIMESTAMP(3) NULL,
@@ -173,6 +189,9 @@ CREATE TABLE ApplicationLog (
  PRIMARY KEY (primaryKey));
 
 
+
+ ALTER TABLE NewClass10 ADD CONSTRAINT FK2f294632fe3aaf61522a4a15afaf07f582624086 FOREIGN KEY (NewClass9) REFERENCES NewClass9; 
+CREATE INDEX Index2f294632fe3aaf61522a4a15afaf07f582624086 on NewClass10 (NewClass9); 
 
  ALTER TABLE NewClass2 ADD CONSTRAINT FK57891fa661cfff750b33a525591d034b0f7c0bc4 FOREIGN KEY (NewClass1) REFERENCES NewClass1; 
 CREATE INDEX Index57891fa661cfff750b33a525591d034b0f7c0bc4 on NewClass2 (NewClass1); 

@@ -4,12 +4,15 @@ moduleForModel('i-i-s-test11-new-class6', 'Unit | Model | i-i-s-test11-new-class
   // Specify the other units that are required for this test.
   needs: [
     'model:i-i-s-test11-new-class1',
+    'model:i-i-s-test11-new-class10',
     'model:i-i-s-test11-new-class2',
     'model:i-i-s-test11-new-class3',
     'model:i-i-s-test11-new-class4',
     'model:i-i-s-test11-new-class5',
     'model:i-i-s-test11-new-class6',
     'model:i-i-s-test11-new-class7',
+    'model:i-i-s-test11-new-class8',
+    'model:i-i-s-test11-new-class9',
     'validator:ds-error',
     'validator:presence',
     'validator:number',
