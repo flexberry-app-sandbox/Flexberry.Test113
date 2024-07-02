@@ -22,43 +22,43 @@ export default Controller.extend({
             link: 'i-i-s-test11-new-class1-l',
             caption: i18n.t('forms.application.sitemap.test11.i-i-s-test11-new-class1-l.caption'),
             title: i18n.t('forms.application.sitemap.test11.i-i-s-test11-new-class1-l.title'),
-            icon: 'suitcase',
+            icon: 'phone',
             children: null
           }, {
             link: 'i-i-s-test11-new-class2-l',
             caption: i18n.t('forms.application.sitemap.test11.i-i-s-test11-new-class2-l.caption'),
             title: i18n.t('forms.application.sitemap.test11.i-i-s-test11-new-class2-l.title'),
-            icon: 'table',
+            icon: 'phone',
             children: null
           }, {
             link: 'i-i-s-test11-new-class3-l',
             caption: i18n.t('forms.application.sitemap.test11.i-i-s-test11-new-class3-l.caption'),
             title: i18n.t('forms.application.sitemap.test11.i-i-s-test11-new-class3-l.title'),
-            icon: 'paperclip',
+            icon: 'folder',
             children: null
           }, {
             link: 'i-i-s-test11-new-class4-l',
             caption: i18n.t('forms.application.sitemap.test11.i-i-s-test11-new-class4-l.caption'),
             title: i18n.t('forms.application.sitemap.test11.i-i-s-test11-new-class4-l.title'),
-            icon: 'edit',
+            icon: 'calendar',
             children: null
           }, {
             link: 'i-i-s-test11-new-class5-l',
             caption: i18n.t('forms.application.sitemap.test11.i-i-s-test11-new-class5-l.caption'),
             title: i18n.t('forms.application.sitemap.test11.i-i-s-test11-new-class5-l.title'),
-            icon: 'file',
+            icon: 'edit',
             children: null
           }, {
             link: 'i-i-s-test11-new-class6-l',
             caption: i18n.t('forms.application.sitemap.test11.i-i-s-test11-new-class6-l.caption'),
             title: i18n.t('forms.application.sitemap.test11.i-i-s-test11-new-class6-l.title'),
-            icon: 'book',
+            icon: 'address card',
             children: null
           }, {
             link: 'i-i-s-test11-new-class7-l',
             caption: i18n.t('forms.application.sitemap.test11.i-i-s-test11-new-class7-l.caption'),
             title: i18n.t('forms.application.sitemap.test11.i-i-s-test11-new-class7-l.title'),
-            icon: 'suitcase',
+            icon: 'tags',
             children: null
           }]
         }
