@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-test11-new-class7-e",
+  "editForm": "i-i-s-test11-new-class7-e",
+  "external": false,
+  "caption": "New class7",
+  "name": "IISTest11NewClass7L",
+  "className": "NewClass7L",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-test11-new-class7",
+      "modelProjection": "NewClass7L"
+    }
+  ]
+}

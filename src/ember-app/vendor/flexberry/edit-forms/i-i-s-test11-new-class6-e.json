@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "New class6",
+  "name": "IISTest11NewClass6E",
+  "className": "NewClass6E",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-test11-new-class6",
+      "modelProjection": "NewClass6E"
+    }
+  ]
+}

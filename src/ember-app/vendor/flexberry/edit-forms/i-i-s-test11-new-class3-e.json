@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "NewClass5",
+      "projection": "NewClass5L",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "New class3",
+  "name": "IISTest11NewClass3E",
+  "className": "NewClass3E",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-test11-new-class3",
+      "modelProjection": "NewClass3E"
+    }
+  ]
+}

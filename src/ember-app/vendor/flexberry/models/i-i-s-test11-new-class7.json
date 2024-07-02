@@ -1,0 +1,74 @@
+﻿{
+  "name": "IISTest11NewClass7",
+  "modelName": "i-i-s-test11-new-class7",
+  "className": "NewClass7",
+  "nameSpace": "IIS.Test11",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "createTime",
+      "type": "date",
+      "flexberryType": "AuditNullableDateTime",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "creator",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "editor",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "editTime",
+      "type": "date",
+      "flexberryType": "AuditNullableDateTime",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "AuditView",
+      "modelName": "i-i-s-test11-new-class7",
+      "attrs": [],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "NewClass7E",
+      "modelName": "i-i-s-test11-new-class7",
+      "attrs": [],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "NewClass7L",
+      "modelName": "i-i-s-test11-new-class7",
+      "attrs": [],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

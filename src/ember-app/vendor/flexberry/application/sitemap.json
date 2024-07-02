@@ -1,0 +1,64 @@
+﻿{
+  "applicationCaption": "Test11",
+  "applicationTitle": "Test11",
+  "items": [
+    {
+      "link": null,
+      "menuName": "test11",
+      "caption": "Test11",
+      "title": "Test11",
+      "children": [
+        {
+          "link": "i-i-s-test11-new-class1-l",
+          "menuName": null,
+          "caption": "New class1",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-test11-new-class2-l",
+          "menuName": null,
+          "caption": "New class2",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-test11-new-class3-l",
+          "menuName": null,
+          "caption": "New class3",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-test11-new-class4-l",
+          "menuName": null,
+          "caption": "New class4",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-test11-new-class5-l",
+          "menuName": null,
+          "caption": "New class5",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-test11-new-class6-l",
+          "menuName": null,
+          "caption": "New class6",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-test11-new-class7-l",
+          "menuName": null,
+          "caption": "New class7",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

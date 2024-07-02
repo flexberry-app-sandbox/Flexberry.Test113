@@ -1,0 +1,175 @@
+﻿{
+  "name": "IISTest11NewClass2",
+  "modelName": "i-i-s-test11-new-class2",
+  "className": "NewClass2",
+  "nameSpace": "IIS.Test11",
+  "parentModelName": "i-i-s-test11-new-class3",
+  "parentClassName": "NewClass3",
+  "attrs": [
+    {
+      "name": "createTime",
+      "type": "date",
+      "flexberryType": "AuditNullableDateTime",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "creator",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "editor",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "editTime",
+      "type": "date",
+      "flexberryType": "AuditNullableDateTime",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "newClass1",
+      "relatedTo": "i-i-s-test11-new-class1",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "newClass4",
+      "relatedTo": "i-i-s-test11-new-class4",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "AuditView",
+      "modelName": "i-i-s-test11-new-class2",
+      "attrs": [],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "NewClass1",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [],
+          "index": 0,
+          "type": "default",
+          "caption": "New class1",
+          "name": "newClass1",
+          "relatedTo": "i-i-s-test11-new-class1",
+          "inverse": null
+        },
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "NewClass4",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [],
+          "index": 1,
+          "type": "default",
+          "caption": "New class4",
+          "name": "newClass4",
+          "relatedTo": "i-i-s-test11-new-class4",
+          "inverse": null
+        },
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "NewClass5",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [],
+          "index": 2,
+          "type": "default",
+          "caption": "New class5",
+          "name": "newClass5",
+          "relatedTo": "i-i-s-test11-new-class5",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    },
+    {
+      "name": "NewClass2E",
+      "modelName": "i-i-s-test11-new-class2",
+      "attrs": [],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "NewClass1",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [],
+          "index": 0,
+          "type": "standard",
+          "caption": "New class1",
+          "name": "newClass1",
+          "relatedTo": "i-i-s-test11-new-class1",
+          "inverse": null
+        },
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "NewClass4",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [],
+          "index": 1,
+          "type": "standard",
+          "caption": "New class4",
+          "name": "newClass4",
+          "relatedTo": "i-i-s-test11-new-class4",
+          "inverse": null
+        },
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "NewClass5",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [],
+          "index": 2,
+          "type": "standard",
+          "caption": "New class5",
+          "name": "newClass5",
+          "relatedTo": "i-i-s-test11-new-class5",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    },
+    {
+      "name": "NewClass2L",
+      "modelName": "i-i-s-test11-new-class2",
+      "attrs": [],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}
